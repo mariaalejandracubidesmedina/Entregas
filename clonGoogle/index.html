@@ -10,37 +10,93 @@
   <body>
     <header>
       <div class="container-nav">
-        <img  src="./assets//images/mail.png" alt="ImagePrincipal">
-        <div class="box"><a href="">Mail</a></div>
-        <img  src="./assets//images/maps.png" alt="ImagePrincipal">
-        <div class="box"><a href="">Maps</a></div>
-        <div class="box"><a href="">Opcion 1</a></div>
-        <div class="box"><a href="">Opcion 2</a></div>
+        <div class="box">
+          <a
+            href="https://www.google.com/intl/es-419/gmail/about/"
+            target="_blank"
+          >
+            <img id="img-link" src="./assets//images/mail.png" alt="mail"
+          /></a>
+        </div>
+
+        <div class="box">
+          <a href="https://www.google.com/maps/?hl=es" target="_blank"
+            ><img id="img-link" src="./assets//images/maps.png" alt="maps"
+          /></a>
+        </div>
       </div>
     </header>
     <main>
-      <div class="container-prin">        
-        <div class="box">
-          <img  src="./assets//images/google.png" alt="ImagePrincipal">
-          <!--<a href="">Gmail</a>-->
+      <section class="section-logo">
+        <div class="box-logo">
+          <img id="logo" src="./assets//images/google.png" alt="LogoGoogle" />
         </div>
-        <div class="box">
-          <input type="search" id="site-search" name="search">
-          <button>Search</button>
-          <!--<a href="">Buscador</a>-->
-          
-        <div class="box-sec">
-          <div>
-            <input class="op" value="Buscar con Google" aria-label="Buscar con Google" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24Q4dUDCBE">
-            <!--<a class="op">Buscar con Google</a>-->
-          </div>
-          <div>
-            <!--<a class="op">voy a tener Suerte</a>-->
-          <input class="op" value="Voy a tener suerte" aria-label="Voy a tener suerte" name="btnI" type="submit" jsaction="trigger.kWlxhc" data-ved="0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24Q19QECBI">
-        </div>
-        </div>
+      </section>
+      <section class="section-search">
+        <button id="button-search">
+          <img
+            src="./assets//images/lupa.png"
+            alt="buscar"
+            style="height: 20px; line-height: 20px; width: 20px"
+          /></button
+        ><input type="text" id="input-search" />
+      </section>
+      <div class="section-button">
+        <button id="search">Buscar con Google</button>
+        <button id="lucky">Voy a tener suerte</button>
+      </div>
+
+      <div id="Info-google">
+        Ofrecido por Google en:
+        <a
+          href="https://www.google.com/setprefs?sig=0_4WEdwGvuQqKvf3CbEYBPLX9D3u0%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24Q2ZgBCBQ"
+          >Español (Latinoamérica)</a
+        >
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="div-col">Colombia</div>
+      <div class="div-link">
+        <a
+          class="footer-link"
+          href="https://about.google/?utm_source=google-CO&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1"
+          ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://about.google/%3Futm_source%3Dgoogle-CO%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24QkNQCCBU"
+          >Sobre Google</a
+        >
+        <a
+          class="footer-link"
+          href="https://www.google.com/intl/es_co/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1"
+          ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/intl/es_co/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24QkdQCCBY"
+          >Publicidad</a
+        >
+        <a
+          class="footer-link"
+          href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1"
+          ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24QktQCCBc"
+          >Negocios</a
+        >
+        <a
+          class="footer-link"
+          href="https://google.com/search/howsearchworks/?fg=1"
+        >
+          Cómo funciona la Búsqueda
+        </a>
+      </div>
+      <div class="other-link">
+        <a
+          class="footer-link"
+          href="https://policies.google.com/privacy?hl=es-CO&amp;fg=1"
+          ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Fhl%3Des-CO%26fg%3D1&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24Q8awCCBg"
+          >Privacidad</a
+        >
+        <a
+          class="footer-link"
+          href="https://policies.google.com/terms?hl=es-CO&amp;fg=1"
+          ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Des-CO%26fg%3D1&amp;ved=0ahUKEwjly-3Sq8H_AhUCfTABHe4-A24Q8qwCCBk"
+          >Condiciones</a
+        >
+        <a class="footer-link">Preferencias</a>
+      </div>
+    </footer>
   </body>
 </html>
