@@ -16,7 +16,7 @@ body {
 header {
     font: 13px/27px Roboto, Arial, sans-serif;
     z-index: 986;
-    height: 48px;
+    height: 10vh;
     color: black;
     min-width: 160px;
     display: block;
@@ -29,10 +29,10 @@ header {
     padding: 0 4px;
     padding-left: 30px;
     justify-content: flex-end;
-      align-items: center;
-      display: flex;   
+    align-items: center;
+    display: flex;   
     font: 13px/27px Roboto, Arial, sans-serif;
-     color: black;
+    color: black;
     min-width: 160px;
     position: relative;   
     transition: box-shadow 250ms;
