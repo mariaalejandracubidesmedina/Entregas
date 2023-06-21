@@ -9,6 +9,7 @@ body {
     background: #fff;
     display: block;
     flex-direction: column;
+    height: 100%;
 
 }
 
@@ -270,7 +271,7 @@ footer {
     background: #f2f2f2;
     flex-shrink: 0;
     box-sizing: border-box;
-    display: block;
+    display: block;    
 }
 
 .div-col {
@@ -309,4 +310,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px).div-link {
+    justify-content: space-evenly;
 }
