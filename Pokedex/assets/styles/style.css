@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .navbar-brand {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque pero siga el flujo del texto */
+}
+.d-flex {
+    margin-left: auto; /* Empuja la barra de búsqueda al lado derecho */
+    padding: 5px;
+}
+
+.navbar-brand img {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+  #root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.card{   
+    width: 200px; /* Tamaño del div circular */
+    height: 200px;
+    background-image: url('images/bola.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen horizontalmente y verticalmente */
+    background-repeat: no-repeat;
+    border-radius: 50%; /* Hace que el div sea circular */
+    margin: 0 auto; /* Centra el div horizontalmente en la página */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    text-align: center; /* Centra el texto dentro del párrafo */
+
+}
+
+.card-loading {
+    width: 200px; /* Tamaño del div circular */
+    height: 200px;     
+
+  }
+.card-image{
+    height: 80px;
+    width: 80px; 
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+   
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el nombre de la creación */
+.creador {
+    margin-bottom: 10px; /* Agrega el margen inferior deseado */
+}
+
+/* Estilos para los botones siguientes */
+.botones_antes_despues {
+    display: flex;
+    gap: 10px; /* Espaciado entre los botones */
+    justify-content: center;
+}
