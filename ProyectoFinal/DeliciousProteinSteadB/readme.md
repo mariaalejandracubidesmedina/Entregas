@@ -6,7 +6,7 @@ Mongo + Express + Node
 2- crear scripts en el package.json.
 3- instalar dependencias
   a- `npm i nodemon -D`
-  b- `npm install --save express cors mongodb mongoose dotenv`
+  b- `npm install --save express cors mongodb mongoose dotenv bcrypt`
 4- Crear un archivo index.js para conectar al iniciar scripts de npm en la ruta de src , ej: `npm start` ó `npm run dev`
 5- Crear estructura de carpetas del proeyecto (src y su contenido )
 6- Crear app.js y db.js dentro de carpeta /src
